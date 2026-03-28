@@ -1,0 +1,43 @@
+/* Metin2 Oriental Gaming Theme */
+:root {
+  --bg-dark: #0d0d0d;
+  --bg-card: #1a1a1a;
+  --bg-card-hover: #222;
+  --bg-input: #2a2a2a;
+  --bg-header: linear-gradient(180deg, #1a0a00 0%, #0d0d0d 100%);
+  --gold: #c9a84c;
+  --gold-light: #e8d48b;
+  --gold-dark: #8b6914;
+  --red: #c0392b;
+  --red-light: #e74c3c;
+  --green: #27ae60;
+  --green-light: #2ecc71;
+  --text-primary: #e8d48b;
+  --text-secondary: #a89060;
+  --text-muted: #666;
+  --border: #3a2a1a;
+  --border-gold: #5a4020;
+  --shadow-gold: 0 0 12px rgba(201, 168, 76, 0.15);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-dark); }
+::-webkit-scrollbar-thumb { background: var(--border-gold); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-dark); }
